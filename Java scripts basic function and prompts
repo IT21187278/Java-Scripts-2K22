@@ -1,0 +1,38 @@
+document.write('<h2>Welcome to the javascripts!!!</h2>')
+
+
+alert('welcome again!!!');
+
+
+🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🔅🔅🔅🔅⚜️🟥😜😜
+
+=====BASICS POP UPS ============
+var response=confirm("Press a button");🗡️🗡️
+let name=prompt("enter youtr name");
+document.write("<h3>Welcome to admin panel  "  ,name,"</h3>");
+
+
+🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️🗡️
+
+======== if else ===========
+
+var marks=prompt("Enter your final marks ");
+if (marks<100 && marks>80){
+    alert('Congratulations!!!');
+    alert("You have Grade A pass");
+}
+else if(marks<79 && marks>60){
+    alert("You have Grade B pass");
+
+}
+
+else if(marks<59 && marks>30){
+    alert("You have C pass");
+}
+
+else if(marks<30){
+    alert('warnning !!!');
+    alert('Face the exam again!!');
+    alert('😫😫😫🗡️');
+}
+
