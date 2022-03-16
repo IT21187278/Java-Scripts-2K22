@@ -1,0 +1,28 @@
+
+======== TIME SHEDULE ===============
+
+
+
+var d = new Date();
+var time = d.getHours();
+
+
+if (time<1 || time>=3)
+{
+    document.write("<b>Great day ProGrammer!!");
+}
+else if(time>=8 && time<12){
+    document.write("<b>God Morning</b>");
+}
+
+else if(time>=13 && time<=15){
+    document.write("<b>God evening </b>");
+}
+
+else if (time>15 && time<=24){
+    document.write('<b>Good night!</b>');
+}
+
+else {
+    document.write("<b>Another multiverse???");
+}
